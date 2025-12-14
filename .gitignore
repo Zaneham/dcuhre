@@ -1,0 +1,9 @@
+# Build artefacts
+*.exe
+*.o
+*.mod
+
+# Original download archives
+*.gz
+toms698.f
+toms698_full.f

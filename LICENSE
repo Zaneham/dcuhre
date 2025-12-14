@@ -1,0 +1,45 @@
+ACM Software License Agreement
+==============================
+
+This software is based on Algorithm 698, DCUHRE, from the Collected
+Algorithms of the ACM (CALGO).
+
+Original Work
+-------------
+Algorithm 698: DCUHRE: An Adaptive Multidimensional Integration Routine
+for a Vector of Integrals.
+
+Authors:
+  Jarle Berntsen (University of Bergen, Norway)
+  Terje O. Espelid (University of Bergen, Norway)
+  Alan Genz (Washington State University, USA)
+
+Published in:
+  ACM Transactions on Mathematical Software, Vol. 17, No. 4,
+  December 1991, pp. 452-456.
+  DOI: 10.1145/210232.210234
+
+Copyright Notice
+----------------
+Copyright (C) 1991 by ACM, Inc.
+
+Use of ACM Algorithms is subject to the ACM Software Copyright and
+License Agreement: https://www.acm.org/publications/policies/software-copyright-notice
+
+Permission to use, copy, modify, and redistribute this software and its
+documentation for any non-commercial purpose is hereby granted without
+fee, provided that the above copyright notice appear in all copies and
+that both that copyright notice and this permission notice appear in
+supporting documentation.
+
+ACM makes no representations about the suitability of this software for
+any purpose. It is provided "as is" without express or implied warranty.
+
+Derivative Work Notice
+----------------------
+This modernised version is a derivative work prepared by Zane Hambly (2025).
+Modifications include conversion to modern Fortran standards while
+preserving the original algorithm and numerical accuracy.
+
+The derivative work is distributed under the same ACM license terms as
+the original software.
