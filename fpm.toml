@@ -16,7 +16,7 @@ name = "dcuhre"
 version = "0.1.0"
 license = "ACM"
 author = "Berntsen, Espelid, Genz (original); Zane (modernisation)"
-maintainer = "zane@example.com"
+maintainer = "zanehambly@gmail.com"
 copyright = "ACM (TOMS Algorithm 698)"
 
 [build]
