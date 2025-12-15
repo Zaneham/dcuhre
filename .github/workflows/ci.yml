@@ -36,11 +36,9 @@ jobs:
 
       - name: Install fpm (Windows)
         if: runner.os == 'Windows'
-        shell: bash
+        shell: pwsh
         run: |
-          curl -LO https://github.com/fortran-lang/fpm/releases/download/v0.10.1/fpm-0.10.1-windows-x86_64.exe
-          mv fpm-0.10.1-windows-x86_64.exe fpm.exe
-          echo "$PWD" >> $GITHUB_PATH
+          Invoke-WebRequest -Uri "https://github.com/fortran-lang/fpm/releases/download/v0.10.1/fpm-0.10.1-windows-x86_64.exe" -OutFile "C:\Windows\fpm.exe"
 
       - name: Build
         run: fpm build
