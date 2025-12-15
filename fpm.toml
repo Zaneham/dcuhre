@@ -10,14 +10,14 @@
 #   ACM Transactions on Mathematical Software, Vol. 17, No. 4,
 #   December 1991, pp. 452-456
 #
-# Modernisation by: Zane (2024)
+# Modernisation by: Zane (2025)
 
 name = "dcuhre"
 version = "0.1.0"
-license = "Public Domain"
+license = "ACM"
 author = "Berntsen, Espelid, Genz (original); Zane (modernisation)"
 maintainer = "zane@example.com"
-copyright = "Public Domain (ACM TOMS Algorithm 698)"
+copyright = "ACM (TOMS Algorithm 698)"
 
 [build]
 auto-executables = true
