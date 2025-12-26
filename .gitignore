@@ -1,7 +1,14 @@
 # Build artefacts
 *.exe
 *.o
+*.obj
 *.mod
+*.a
+*.lib
+
+# Build directories
+build/
+_build/
 
 # Original download archives
 *.gz

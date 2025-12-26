@@ -33,7 +33,21 @@ end program
 
 ## Building
 
-With gfortran:
+### CMake
+```bash
+mkdir build && cd build
+cmake ..
+cmake --build .
+ctest  # run tests
+```
+
+### Fortran Package Manager (fpm)
+```bash
+fpm build
+fpm test
+```
+
+### Manual (gfortran)
 ```bash
 gfortran -o test test/dtest1.f src/*.f
 ./test
